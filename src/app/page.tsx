@@ -21,16 +21,16 @@ export default function Home() {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 w-full justify-center animate-in slide-in-from-bottom-12 duration-1000 delay-300">
-          <Button size="lg" className="h-14 px-8 text-lg rounded-full" asChild>
-            <Link href="/diagnostics">
+          <Link href="/diagnostics">
+            <Button size="lg" className="h-14 px-8 text-lg rounded-full">
               Analyze Battery <ArrowRight className="ml-2 w-5 h-5" />
-            </Link>
-          </Button>
-          <Button size="lg" variant="outline" className="h-14 px-8 text-lg rounded-full border-border bg-card/50 backdrop-blur-sm" asChild>
-            <Link href="/marketplace">
+            </Button>
+          </Link>
+          <Link href="/marketplace">
+            <Button size="lg" variant="outline" className="h-14 px-8 text-lg rounded-full border-border bg-card/50 backdrop-blur-sm">
               Explore Marketplace
-            </Link>
-          </Button>
+            </Button>
+          </Link>
         </div>
       </section>
 
